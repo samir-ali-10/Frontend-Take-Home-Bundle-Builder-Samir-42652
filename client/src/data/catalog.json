@@ -1,0 +1,344 @@
+{
+    "shipping": {
+        "id": "fast-shipping",
+        "label": "Fast Shipping",
+        "compareAtPrice": 5.99,
+        "price": 0,
+        "isFree": true
+    },
+    "financing": {
+        "monthlyAmount": 19.19
+    },
+    "steps": [
+        {
+            "id": "cameras",
+            "title": "Choose your cameras",
+            "nextLabel": "Next: Choose your plan",
+            "icon": "camera",
+            "category": "cameras",
+            "productIds": [
+                "wyze-cam-v4",
+                "wyze-cam-pan-v3",
+                "wyze-video-doorbell-v2",
+                "wyze-floodlight-cam-v2",
+                "wyze-battery-cam-pro"
+            ]
+        },
+        {
+            "id": "plan",
+            "title": "Choose your plan",
+            "nextLabel": "Next: Choose your sensors",
+            "icon": "shield",
+            "category": "plan",
+            "productIds": [
+                "cam-unlimited",
+                "cam-plus",
+                "cam-basic"
+            ]
+        },
+        {
+            "id": "sensors",
+            "title": "Choose your sensors",
+            "nextLabel": "Next: Add extra protection",
+            "icon": "sensor",
+            "category": "sensors",
+            "productIds": [
+                "wyze-sense-motion",
+                "wyze-sense-entry",
+                "wyze-sense-hub"
+            ]
+        },
+        {
+            "id": "protection",
+            "title": "Add extra protection",
+            "nextLabel": "Review your system",
+            "icon": "grid",
+            "category": "accessories",
+            "productIds": [
+                "wyze-microsd-256",
+                "wyze-cam-pan-mount",
+                "wyze-outdoor-power-adapter"
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": "wyze-cam-v4",
+            "name": "Wyze Cam v4",
+            "description": "Our best indoor camera with Color Night Vision, and sharper 2.5K video.",
+            "learnMoreUrl": "#",
+            "category": "cameras",
+            "image": "/images/cam-v4.png",
+            "badge": "Save 22%",
+            "price": 27.98,
+            "compareAtPrice": 35.98,
+            "variants": [
+                {
+                    "id": "white",
+                    "label": "White",
+                    "swatch": "#F5F5F5",
+                    "swatchBorder": "#D0D5DD",
+                    "image": "/images/cam-v4-white.png"
+                },
+                {
+                    "id": "grey",
+                    "label": "Grey",
+                    "swatch": "#6B7280",
+                    "swatchBorder": "#4B5563",
+                    "image": "/images/cam-v4-grey.png"
+                },
+                {
+                    "id": "black",
+                    "label": "Black",
+                    "swatch": "#111827",
+                    "swatchBorder": "#111827",
+                    "image": "/images/cam-v4-black.png"
+                }
+            ]
+        },
+        {
+            "id": "wyze-cam-pan-v3",
+            "name": "Wyze Cam Pan v3",
+            "description": "Pan and tilt camera with Color Night Vision and 1080p HD video.",
+            "learnMoreUrl": "#",
+            "category": "cameras",
+            "image": "/images/cam-pan-v3.png",
+            "badge": "Save 17%",
+            "price": 23.99,
+            "compareAtPrice": 28.99,
+            "variants": [
+                {
+                    "id": "white",
+                    "label": "White",
+                    "swatch": "#F5F5F5",
+                    "swatchBorder": "#D0D5DD",
+                    "image": "/images/cam-pan-v3-white.png"
+                },
+                {
+                    "id": "black",
+                    "label": "Black",
+                    "swatch": "#111827",
+                    "swatchBorder": "#111827",
+                    "image": "/images/cam-pan-v3-black.png"
+                }
+            ]
+        },
+        {
+            "id": "wyze-video-doorbell-v2",
+            "name": "Wyze Video Doorbell v2",
+            "description": "See and speak to visitors from your phone with dual audio and HD video.",
+            "learnMoreUrl": "#",
+            "category": "cameras",
+            "image": "/images/doorbell-v2.png",
+            "badge": null,
+            "price": 49.98,
+            "compareAtPrice": null,
+            "variants": []
+        },
+        {
+            "id": "wyze-floodlight-cam-v2",
+            "name": "Wyze Floodlight Cam v2",
+            "description": "Bright outdoor floodlight with a built-in 1080p camera and siren.",
+            "learnMoreUrl": "#",
+            "category": "cameras",
+            "image": "/images/floodlight-v2.png",
+            "badge": "Save 12%",
+            "price": 69.98,
+            "compareAtPrice": 79.98,
+            "variants": [
+                {
+                    "id": "white",
+                    "label": "White",
+                    "swatch": "#F5F5F5",
+                    "swatchBorder": "#D0D5DD",
+                    "image": "/images/floodlight-v2-white.png"
+                },
+                {
+                    "id": "black",
+                    "label": "Black",
+                    "swatch": "#111827",
+                    "swatchBorder": "#111827",
+                    "image": "/images/floodlight-v2-black.png"
+                }
+            ]
+        },
+        {
+            "id": "wyze-battery-cam-pro",
+            "name": "Wyze Battery Cam Pro",
+            "description": "Wire-free outdoor camera with Color Night Vision and longer battery life.",
+            "learnMoreUrl": "#",
+            "category": "cameras",
+            "image": "/images/battery-cam-pro.png",
+            "badge": null,
+            "price": 69.98,
+            "compareAtPrice": null,
+            "variants": [
+                {
+                    "id": "white",
+                    "label": "White",
+                    "swatch": "#F5F5F5",
+                    "swatchBorder": "#D0D5DD",
+                    "image": "/images/battery-cam-pro-white.png"
+                },
+                {
+                    "id": "black",
+                    "label": "Black",
+                    "swatch": "#111827",
+                    "swatchBorder": "#111827",
+                    "image": "/images/battery-cam-pro-black.png"
+                }
+            ]
+        },
+        {
+            "id": "cam-unlimited",
+            "name": "Cam Unlimited",
+            "description": "Unlimited cameras, person \u0026 package detection, and longer video history.",
+            "learnMoreUrl": "#",
+            "category": "plan",
+            "image": "/images/plan-unlimited.png",
+            "badge": "Popular",
+            "price": 9.99,
+            "compareAtPrice": 12.99,
+            "billingPeriod": "mo",
+            "variants": []
+        },
+        {
+            "id": "cam-plus",
+            "name": "Cam Plus",
+            "description": "Smart detections and 14-day rolling video history for one camera.",
+            "learnMoreUrl": "#",
+            "category": "plan",
+            "image": "/images/plan-plus.png",
+            "badge": null,
+            "price": 3.99,
+            "compareAtPrice": null,
+            "billingPeriod": "mo",
+            "variants": []
+        },
+        {
+            "id": "cam-basic",
+            "name": "Cam Basic",
+            "description": "Live streaming and event alerts for your cameras at no monthly cost.",
+            "learnMoreUrl": "#",
+            "category": "plan",
+            "image": "/images/plan-basic.png",
+            "badge": "Free",
+            "price": 0,
+            "compareAtPrice": null,
+            "billingPeriod": "mo",
+            "variants": []
+        },
+        {
+            "id": "wyze-sense-motion",
+            "name": "Wyze Sense Motion Sensor",
+            "description": "Detect motion in rooms and hallways. Works with the Wyze Sense Hub.",
+            "learnMoreUrl": "#",
+            "category": "sensors",
+            "image": "/images/sense-motion.png",
+            "badge": null,
+            "price": 29.99,
+            "compareAtPrice": null,
+            "variants": []
+        },
+        {
+            "id": "wyze-sense-entry",
+            "name": "Wyze Sense Entry Sensor",
+            "description": "Know when doors and windows open. Compact sensor with long battery life.",
+            "learnMoreUrl": "#",
+            "category": "sensors",
+            "image": "/images/sense-entry.png",
+            "badge": null,
+            "price": 19.99,
+            "compareAtPrice": null,
+            "variants": []
+        },
+        {
+            "id": "wyze-sense-hub",
+            "name": "Wyze Sense Hub",
+            "description": "Required bridge for Sense sensors. Connects your sensors to Wi-Fi.",
+            "learnMoreUrl": "#",
+            "category": "sensors",
+            "image": "/images/sense-hub.png",
+            "badge": null,
+            "price": 0,
+            "compareAtPrice": 29.92,
+            "isFree": true,
+            "isRequired": true,
+            "variants": []
+        },
+        {
+            "id": "wyze-microsd-256",
+            "name": "Wyze MicroSD Card (256GB)",
+            "description": "Local continuous recording for compatible Wyze cameras.",
+            "learnMoreUrl": "#",
+            "category": "accessories",
+            "image": "/images/microsd.png",
+            "badge": null,
+            "price": 20.98,
+            "compareAtPrice": null,
+            "variants": []
+        },
+        {
+            "id": "wyze-cam-pan-mount",
+            "name": "Wyze Cam Pan Wall Mount",
+            "description": "Secure wall mount designed for Cam Pan. Keep your camera tilted and stable.",
+            "learnMoreUrl": "#",
+            "category": "accessories",
+            "image": "/images/pan-mount.png",
+            "badge": null,
+            "price": 9.99,
+            "compareAtPrice": null,
+            "variants": []
+        },
+        {
+            "id": "wyze-outdoor-power-adapter",
+            "name": "Outdoor Power Adapter",
+            "description": "Keep battery cameras charged outdoors with weather-resistant power.",
+            "learnMoreUrl": "#",
+            "category": "accessories",
+            "image": "/images/power-adapter.png",
+            "badge": null,
+            "price": 14.99,
+            "compareAtPrice": null,
+            "variants": []
+        }
+    ],
+    "initialSelections": [
+        {
+            "productId": "wyze-cam-v4",
+            "variantId": "white",
+            "quantity": 1
+        },
+        {
+            "productId": "wyze-cam-pan-v3",
+            "variantId": "white",
+            "quantity": 2
+        },
+        {
+            "productId": "wyze-sense-motion",
+            "variantId": null,
+            "quantity": 2
+        },
+        {
+            "productId": "wyze-sense-hub",
+            "variantId": null,
+            "quantity": 1
+        },
+        {
+            "productId": "wyze-microsd-256",
+            "variantId": null,
+            "quantity": 2
+        },
+        {
+            "productId": "cam-unlimited",
+            "variantId": null,
+            "quantity": 1
+        }
+    ],
+    "categoryLabels": {
+        "cameras": "Cameras",
+        "sensors": "Sensors",
+        "accessories": "Accessories",
+        "plan": "Plan"
+    }
+}
